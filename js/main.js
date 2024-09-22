@@ -76,7 +76,7 @@ function animate() {
   //Make the eye move
   if (object && objToRender === "eye") {
     //I've played with the constants here until it looked good 
-    object.rotation.y = -5 + mouseX / window.innerWidth * 3;
+    object.rotation.y = -5.5 + mouseX / window.innerWidth * 3;
  
   }
   renderer.render(scene, camera);
